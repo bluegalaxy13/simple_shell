@@ -28,6 +28,7 @@ void create_child(char **command, char *name, char **env, int cicles)
 	else
 	{
 		wait_error = waitpid(pid, &status, 0);
+
 		if (wait_error < 0)
 		{
 			free_exit(command);
@@ -35,7 +36,6 @@ void create_child(char **command, char *name, char **env, int cicles)
 		free_dp(command);
 	}
 }
-
 
 /**
   * change_dir - A function that changes working directory.
