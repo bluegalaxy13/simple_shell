@@ -9,13 +9,13 @@
  */
 int main(int ac, char **av, char **env)
 {
-    char *buffer = NULL, **command = NULL;
+	char *buffer = NULL, **command = NULL;
 	size_t buf_size = 0;
 	ssize_t chars_readed = 0;
 	int cicles = 0;
 	(void)ac;
 
-    while (1)
+	while (1)
 	{
 		cicles++;
 		prompt();
@@ -67,7 +67,7 @@ void handle(int signals)
 }
 
 /**
- * _EOF - A function that chaecks if buffer is EOF
+ * _EOF - A function that checks if buffer is EOF
  * @buffer: The pointer to the input string.
  * Return: Nothing
  */

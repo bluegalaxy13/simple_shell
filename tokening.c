@@ -13,7 +13,9 @@ char **tokening(char *buffer, const char *s)
 	int i = 0;
 
 	if (buffer == NULL)
+	{
 		return (NULL);
+	}	
 
 	bufsize = _strlen(buffer);
 	commands = malloc((bufsize + 1) * sizeof(char *));

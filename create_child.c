@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * create_child - A function that creates a sub process
- * @command: The pointer to tokenized command
- * @name: The pointer to the name of shell
- * @env: The pointer to the enviromental variables
- * @cicles: Number of executed cicles
- * Return: Nothing
+ * create_child - A function that creates a sub process.
+ * @command: The pointer to tokenized command.
+ * @name: The pointer to the name of shell.
+ * @env: The pointer to the enviromental variables.
+ * @cicles: Number of executed cicles.
+ * Return: Nothing.
  */
 void create_child(char **command, char *name, char **env, int cicles)
 {
@@ -38,9 +38,9 @@ void create_child(char **command, char *name, char **env, int cicles)
 
 
 /**
-  * change_dir - Afunction that changes working directory
-  * @path: The new current working directory
-  * Return: 0 on success, -1 on failure
+  * change_dir - A function that changes working directory.
+  * @path: The new current working directory.
+  * Return: 0 on success, -1 on failure.
   */
 int change_dir(const char *path)
 {

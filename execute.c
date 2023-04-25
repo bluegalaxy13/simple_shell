@@ -71,7 +71,7 @@ void print_env(char **env)
 
 
 /**
- * _getPATH - A function to gets the full value from.
+ * _getPATH - A function to gets the full value from
  * enviromental variable PATH.
  * @env: The pointer to enviromental variables.
  * Return: All tokenized pathways for commands.
