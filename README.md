@@ -16,17 +16,23 @@ The files needed to replicate a basic **Unix Shell** and its associated commands
 * Handle errors.
 * You have to handle the “end of file” condition (**Ctrl+D**)
 
-## Process Description
-
-## Requirements:
-
-## General
-
-## Basic biggining
-
-## Compiling, Debugging and Runing
-
 ## Usage Examples
+
+## Examples
+
+Here are shown some examples of the usage of the Shell:
+
+- ls
+
+```shell
+Hell_Shell>> ls
+AUTHORS  Hell_Shell  README.md auxiliar_functions.c  create_child.c  dir  execute.c  free_mem.c  generateAUTHORS  man_1_simple_shell  shell.h shell_init.c  tokening.c
+```
+
+```shell
+Hell_Shell>> /bin/ls
+AUTHORS  Hell_Shell  README.md	auxiliar_functions.c  create_child.c  dir  execute.c  free_mem.c  generateAUTHORS  man_1_simple_shell  shell.h shell_init.c  tokening.c
+```
 
 ## Authors:
 
