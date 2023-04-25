@@ -57,6 +57,6 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
 
-/*============ END      ==============*/
+/*============ END     ==============*/
 
 #endif /* _SHELL_H_ */
