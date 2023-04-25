@@ -45,6 +45,7 @@ int main(int ac, char **av, char **env)
 	return (EXIT_SUCCESS);
 }
 
+
 /**
  * prompt - A function that prints the prompt
  * Return: Nothing.
@@ -54,6 +55,7 @@ void prompt(void)
 	if (isatty(STDIN_FILENO))
 		write(STDOUT_FILENO, "Hell_Shell>> ", 13);
 }
+
 
 /**
  * handle - A function to handle Ctr + C signal.
@@ -65,6 +67,7 @@ void handle(int signals)
 	(void)signals;
 	write(STDOUT_FILENO, "\nHell_Shell>> ", 14);
 }
+
 
 /**
  * _EOF - A function that checks if buffer is EOF
@@ -80,10 +83,13 @@ void _EOF(char *buffer)
 	}
 
 	if (isatty(STDIN_FILENO))
+	{
 		write(STDOUT_FILENO, "\n", 1);
+	}
 	free(buffer);
 	exit(EXIT_SUCCESS);
 }
+
 
 /**
  * shell_exit - A function that exits the shell.
